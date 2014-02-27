@@ -43,14 +43,14 @@ function spritzify(input, output, wpm){
 
     // Set the timers!
     for (var i=0; i<all_words.length; i++){
-        setTimeout(function(x) { 
-            return function() { 
+        setTimeout(function(x) {
+            return function() {
 
                 var p = pivot(all_words[x]);
                 $(output).html(p);
 
         }; }(i), ms_per_word * i);
-        
+
     }
 }
 
@@ -121,7 +121,6 @@ function clearTimeouts(){
     }
 }
 
-String.prototype.repeat = function( num )
-{
+String.prototype.repeat = function( num ) {
     return new Array( num + 1 ).join( this );
 }
