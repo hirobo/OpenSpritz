@@ -2,7 +2,7 @@
 
 OpenSpritz is an extremely crude implementation of [Spritz](http://www.spritzinc.com/) in JavaScript.
 
-I modified [Miserlou's](http://github.com/miserlou) code to allow users to input any text they desire. 
+All credit goes to [Miserlou's](http://github.com/miserlou), I just slightly modified his code to allow users to input any text they desire. 
 
 ## TODO
 * Make a bookmarklet which will Spritzify highlighted text.
